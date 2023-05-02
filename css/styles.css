@@ -25,3 +25,7 @@
 .key:hover {
     background-color: lightgray;
 }
+
+.key:active {
+    background-color: darkgrey;
+}
