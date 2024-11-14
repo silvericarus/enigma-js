@@ -1,5 +1,6 @@
 # Enigma Machine
 
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://camo.githubusercontent.com/60e9a9b15b4538b2a05021820ba80da778846766aa750d25f44db4297472f28b/68747470733a2f2f6c6963656e7365627574746f6e732e6e65742f6c2f62792d6e632d73612f342e302f38387833312e706e67" alt="CC BY-NC-SA 4.0 License" data-canonical-src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" style="max-width: 100%;"></a>
 <a href="https://www.repostatus.org/#abandoned"><img src="https://www.repostatus.org/badges/latest/abandoned.svg" alt="Project Status: Abandoned – Initial development has started, but there has not yet been a stable, usable release; the project has been abandoned and the author(s) do not intend on continuing development." /></a><br>
 
 > [!WARNING]
