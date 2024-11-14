@@ -1,20 +1,26 @@
-# Máquina Enigma
+# Enigma Machine
 
-<a href="https://www.repostatus.org/#wip"><img src="https://www.repostatus.org/badges/latest/wip.svg" alt="Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public." /></a><br>
-Este es un proyecto hecho para estudiar cómo funcionaba la máquina [Enigma](https://es.wikipedia.org/wiki/Enigma_(m%C3%A1quina)) usada durante la WWII por la armada Alemana, mejorar mis capacidades en criptología, y estudiar el funcionamiento de esta máquina que mediante pulsos eléctricos, pines y rotores, incrementa las posibilidades de adivinar el mensaje en cientos de quintillones.
+<a href="https://www.repostatus.org/#abandoned"><img src="https://www.repostatus.org/badges/latest/abandoned.svg" alt="Project Status: Abandoned – Initial development has started, but there has not yet been a stable, usable release; the project has been abandoned and the author(s) do not intend on continuing development." /></a><br>
 
-## Funcionamiento
-### Rotores
-Tiene tres rotores, organizados de esta forma según sus conexiones mediante cables:
+> [!WARNING]
+> This project was created as an analysis and personal study on cryptology. I made the previous research, and found that it was too complex to implement for my knowledge.
+> Then, on date <b>14/NOV/2024</b>, this project will be set as public archived, so the research and design can be used. Remember to check the LICENSE if yo do so.
+
+This project was created to study how the [Enigma machine](https://en.wikipedia.org/wiki/Enigma_machine) used by the German navy during WWII worked, to improve my cryptology skills, and to understand the operation of this machine, which, through electrical pulses, pins, and rotors, increases the guessing possibilities of the message into hundreds of quintillions.
+
+### Operation
+### Rotors
+
+It has three rotors, arranged in this way according to their connections via cables:
 - Rotor 1: JGDQOXUSCAMIFRVTPNEWKBLZYH
 - Rotor 2: NTZPSFBOKMWRCJDIVLAEYUXHGQ
-- Rotor 3: JVIUBHTCDYAKEQZPOSGXNRMWFL <br>
-Cada vez que el rotor 1 da una vuelta completa, el 2 avanza uno, y cuando el 2 avanza uno completo, el 3 avanza uno, entendiéndose como un reloj, y sus cables llevan la electricidad a diferentes sitios según la posición del rotor, que cambia cada vez que se pulsa una tecla. Un ejemplo, pulsas la A que te lleva mediante el rotor 1 a la J, que rota y la A pasa a ser la G en el rotor 1, la J nos lleva a la N en el rotor 2, que nos lleva a la J en el rotor 3, que sería la letra que se mostraría en la configuración estándar. Digo estándar, porque los rotores también se pueden girar manualmente a una configuración que no sea la estándar, añadiendo muchas más configuraciones, y mucha más dificultad para obtener el código por fuerza bruta.
+- Rotor 3: JVIUBHTCDYAKEQZPOSGXNRMWFL
 
-### Pines
-![pines](https://www.cryptomuseum.com/crypto/enigma/i/img/300002/047/full.jpg)
-Suponiendo que en el paso anterior hemos obtenido una J ante un input de una A, tenemos unos pines que pasan la electricidad de una letra a otra, por lo que no solo debemos escribir el código adecuado, sino que tenemos que tener una configuración adecuada de los pines, si no, obtendremos una frase sin sentido.
+Each time rotor 1 completes a full rotation, rotor 2 advances one position, and when rotor 2 completes a full rotation, rotor 3 advances one position, similar to the movement of a clock. The cables carry the electricity to different locations depending on the rotor position, which changes each time a key is pressed. For example, if you press "A," it goes through rotor 1 to "J," which rotates, and "A" becomes "G" in rotor 1. "J" then leads to "N" in rotor 2, which leads to "J" in rotor 3, which would be the displayed letter in the standard configuration. I say "standard" because the rotors can also be manually rotated to a non-standard configuration, adding many more settings and much more difficulty in obtaining the code by brute force.
 
-### Conclusión
-Entre los giros de los rotores, que al escribir "MOTO" la primera "O" no será la misma letra que la segunda, las configuraciones manuales de los rotores y los pines, y que las palabras se tienen que escribir en el orden adecuado para que los rotores den los giros adecuados para mostrar las letras correctas, la encriptación de esta máquina fue muy efectiva, presentándose como un proyecto muy complejo e interesante.
+### Pins
+![pins](https://www.cryptomuseum.com/crypto/enigma/i/img/300002/047/full.jpg)
+Assuming in the previous step we got a "J" as an output from an "A" input, there are pins that pass the electricity from one letter to another, meaning that we not only have to enter the correct code, but we also need an appropriate pin configuration; otherwise, we’ll get a nonsensical phrase.
 
+### Conclusion
+Between the rotor rotations, where typing "MOTO" would make the first "O" different from the second, the manual configurations of the rotors and pins, and the requirement that words be typed in the correct order for the rotors to rotate and display the correct letters, the encryption of this machine was highly effective, presenting a complex and fascinating project.
